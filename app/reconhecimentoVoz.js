@@ -27,7 +27,7 @@ function exibeChuteNaTela(chute) {
 }
 
 function gameOver(chute) {
-    if (chute == "game over") {
+    if (chute == "Game over") {
         document.body.innerHTML = `<h2 class="game-over">GAME OVER</h2>
         <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
         `
