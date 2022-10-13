@@ -2,7 +2,7 @@
 
 :root {
     --font-family: 'Roboto', sans-serif;
-    --bg-color: #3F0071;
+    --bg-color: #270047;
     --primary-color: #CDFCF6;
 }
 
@@ -23,7 +23,7 @@ h1 {
     font-size: 4em;
 }
 
-h2{
+h2 {
     font-size: 5em;
 }
 
@@ -37,7 +37,7 @@ h3 {
     margin-top: 2em;
 }
 
-#text{
+#text {
     flex-direction: column;
 }
 
@@ -50,7 +50,7 @@ h3 {
     border-radius: 0.2em;
 }
 
-.btn-jogar{
+.btn-jogar {
     padding: 0.5em;
     margin: 2em;
     border: 0;
@@ -58,6 +58,10 @@ h3 {
     border-radius: 0.3em;
 }
 
-.btn-jogar:active{
+.btn-jogar:active {
     background-color: rgb(17, 152, 209);
+}
+
+.game-over {
+    background-color: #000;
 }
