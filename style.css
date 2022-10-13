@@ -23,6 +23,10 @@ h1 {
     font-size: 4em;
 }
 
+h2{
+    font-size: 5em;
+}
+
 h3 {
     font-size: 2em;
     margin-top: 1em;
@@ -33,6 +37,10 @@ h3 {
     margin-top: 2em;
 }
 
+#text{
+    flex-direction: column;
+}
+
 .box {
     border: 0.1em solid var(--primary-color);
     display: inline-block;
@@ -40,4 +48,16 @@ h3 {
     padding: 0.5em;
     margin: 0.5em;
     border-radius: 0.2em;
+}
+
+.btn-jogar{
+    padding: 0.5em;
+    margin: 2em;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 0.3em;
+}
+
+.btn-jogar:active{
+    background-color: rgb(17, 152, 209);
 }
